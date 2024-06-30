@@ -46,17 +46,107 @@
     </header>
     <main>
       <div class="main-contaner">
-        <div class="methods-list-container">
-          <ul class="methods-list">
-            <li class="methods-list-item">Аккаунт</li>
-            <li class="methods-list-item">Отправка</li>
-            <li class="methods-list-item">Получение</li>
-            <li class="methods-list-item">Журналы</li>
-            <li class="methods-list-item">Очередь</li>
-            <li class="methods-list-item">Группы</li>
-            <li class="methods-list-item">Статусы</li>
-            <li class="methods-list-item">Отметка прочтения</li>
-            <li class="methods-list-item">Сервисные методы</li>
+        <div class="methods-group-list-container">
+          <ul class="methods-group-list">
+            <li class="methods-goup-list-item">
+              Аккаунт
+              <ul class="methods-list">
+                <li class="methods-goup-list-item">GetSettings</li>
+                <li class="methods-goup-list-item">SetSettings</li>
+                <li class="methods-goup-list-item">GetStateInstance</li>
+                <li class="methods-goup-list-item">Reboot</li>
+                <li class="methods-goup-list-item">Logout</li>
+                <li class="methods-goup-list-item">QR</li>
+                <li class="methods-goup-list-item">GetAuthorizationCode</li>
+                <li class="methods-goup-list-item">SetProfilePicture</li>
+                <li class="methods-goup-list-item">GetWaSettings</li>
+              </ul>
+            </li>
+            <li class="methods-goup-list-item">
+              Отправка
+              <ul class="methods-list">
+                <li class="methods-goup-list-item">SendMessage</li>
+                <li class="methods-goup-list-item">SendPoll</li>
+                <li class="methods-goup-list-item">SendFileByUpload</li>
+                <li class="methods-goup-list-item">SendFileByUrl</li>
+                <li class="methods-goup-list-item">UploadFile</li>
+                <li class="methods-goup-list-item">SendLocation</li>
+                <li class="methods-goup-list-item">SendContact</li>
+                <li class="methods-goup-list-item">ForwardMessages</li>
+              </ul>
+            </li>
+            <li class="methods-goup-list-item">
+              Получение
+              <ul class="methods-list">
+                <li class="methods-goup-list-item">
+                  ReceiveIncomingNotifications
+                </li>
+                <li class="methods-goup-list-item">ReceiveNotification</li>
+                <li class="methods-goup-list-item">DeleteNotification</li>
+                <li class="methods-goup-list-item">DownloadFile</li>
+              </ul>
+            </li>
+            <li class="methods-goup-list-item">
+              Журналы
+              <ul class="methods-list">
+                <li class="methods-goup-list-item">GetChatHistory</li>
+                <li class="methods-goup-list-item">GetMessage</li>
+                <li class="methods-goup-list-item">LastIncomingMessages</li>
+                <li class="methods-goup-list-item">LastOutgoingMessages</li>
+              </ul>
+            </li>
+            <li class="methods-goup-list-item">
+              Очередь
+              <ul class="methods-list">
+                <li class="methods-goup-list-item">ShowMessagesQueue</li>
+                <li class="methods-goup-list-item">ClearMessagesQueue</li>
+              </ul>
+            </li>
+            <li class="methods-goup-list-item">
+              Группы
+              <ul class="methods-list">
+                <li class="methods-goup-list-item">CreateGroup</li>
+                <li class="methods-goup-list-item">UpdateGroupName</li>
+                <li class="methods-goup-list-item">GetGroupData</li>
+                <li class="methods-goup-list-item">AddGroupParticipant</li>
+                <li class="methods-goup-list-item">RemoveGroupParticipant</li>
+                <li class="methods-goup-list-item">SetGroupAdmin</li>
+                <li class="methods-goup-list-item">RemoveAdmin</li>
+                <li class="methods-goup-list-item">SetGroupPicture</li>
+                <li class="methods-goup-list-item">LeaveGroup</li>
+              </ul>
+            </li>
+            <li class="methods-goup-list-item">
+              Статусы
+              <ul class="methods-list">
+                <li class="methods-goup-list-item">SendTextStatus</li>
+                <li class="methods-goup-list-item">SendVoiceStatus</li>
+                <li class="methods-goup-list-item">SendMediaStatus</li>
+                <li class="methods-goup-list-item">GetOutgoingStatuses</li>
+                <li class="methods-goup-list-item">GetIncomingStatuses</li>
+                <li class="methods-goup-list-item">GetStatusStatistic</li>
+                <li class="methods-goup-list-item">DeleteStatus</li>
+              </ul>
+            </li>
+            <li class="methods-goup-list-item">
+              Отметка прочтения
+              <ul class="methods-list">
+                <li class="methods-goup-list-item">ReadChat</li>
+              </ul>
+            </li>
+            <li class="methods-goup-list-item">
+              Сервисные методы
+              <ul class="methods-list">
+                <li class="methods-goup-list-item">CheckWhatsapp</li>
+                <li class="methods-goup-list-item">GetAvatar</li>
+                <li class="methods-goup-list-item">GetContacts</li>
+                <li class="methods-goup-list-item">GetContactInfo</li>
+                <li class="methods-goup-list-item">DeleteMessage</li>
+                <li class="methods-goup-list-item">ArchiveChat</li>
+                <li class="methods-goup-list-item">UnarchiveChat</li>
+                <li class="methods-goup-list-item">SetDisappearingChat</li>
+              </ul>
+            </li>
           </ul>
         </div>
         <div class="methods-container">

@@ -118,10 +118,10 @@ button:hover {
 li{
   list-style: none;
 }
-.methods-list-item{
-  display: flex;
+.methods-goup-list-item{
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   background-color: var(--main-color);
   height: 40px;
   width: 200px;
@@ -130,8 +130,19 @@ li{
   color: white;
   font-weight: 600;
 }
-.methods-list-item:hover{
+.methods-goup-list-item:hover{
   background-color: white;
   color: var(--main-color);
   cursor: pointer;
+}
+
+.methods-goup-list-item>ul{
+  display: none;
+}
+.methods-goup-list-item:hover > ul{
+  position: relative;
+  left: 200px;
+  /* top: 100px; */
+  display: block;
+  z-index: 1;
 }
